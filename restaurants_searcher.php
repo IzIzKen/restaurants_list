@@ -8,7 +8,7 @@ use GuzzleHttp\Client;
 $KEYID = "5804ed40d2a94339";
 $HIT_PER_PAGE = 100;
 $PREF = "Z011";
-$FREEWORD = "新宿駅";
+$FREEWORD = "下北沢";
 $FORMAT = "json";
 
 $PARAMS = ["key"=> $KEYID, "count"=>$HIT_PER_PAGE, "pref"=>$PREF, "keyword"=>$FREEWORD, "format"=>$FORMAT];
